@@ -1,0 +1,31 @@
+{
+  "name": "rainbow-gradient",
+  "version": "0.0.0",
+  "description": "generate a rainbow gradient of ['h', 's', 'v'] colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdinosaur/rainbow-gradient.git"
+  },
+  "keywords": [
+    "rainbow",
+    "hsv",
+    "color"
+  ],
+  "author": "ahdinosaur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahdinosaur/rainbow-gradient/issues"
+  },
+  "homepage": "https://github.com/ahdinosaur/rainbow-gradient#readme",
+  "devDependencies": {
+    "tape": "^4.0.1"
+  },
+  "dependencies": {
+    "defined": "^1.0.0",
+    "mod-op": "^1.0.0"
+  }
+}
