@@ -1,6 +1,6 @@
 {
   "name": "rainbow-linear-gradient",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "generate a linear gradient of rainbow ndpixels",
   "main": "index.js",
   "scripts": {
