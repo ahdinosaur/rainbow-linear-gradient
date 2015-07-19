@@ -16,7 +16,7 @@ function rainbowGradient (opts) {
     step = 1 / length
   }
   var saturation = defined(opts.saturation, 100)
-  var value = defined(opts.value, 100)
+  var lightness = defined(opts.lightness, 50)
 
   var colors = new Float32Array(length * 3)
   for (var c = 0, i = 0; c < colors.length; c++, i += 3) {
@@ -29,12 +29,12 @@ function rainbowGradient (opts) {
       , 360
     )
     colors[i + 1] = saturation
-    colors[i + 2] = value
+    colors[i + 2] = lightness
   }
 
   var ret = ndarray(colors, [length, 3])
 
-  ret.format = 'hsv'
+  ret.format = 'hsl'
 
   return ret
 }
