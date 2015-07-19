@@ -1,5 +1,6 @@
 var defined = require('defined')
 var mod = require('mod-op')
+var ndarray = require('ndarray')
 
 module.exports = rainbowGradient
 
@@ -30,5 +31,5 @@ function rainbowGradient (opts) {
     colors[i + 2] = value
   }
 
-  return colors
+  return ndarray(colors, [length, 3])
 }

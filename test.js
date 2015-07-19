@@ -35,7 +35,7 @@ test('gets a rainbow', function (t) {
       length: length
     })
     var expected = fixtures.shift()
-    t.deepEqual([].slice.call(colors), expected)
+    t.deepEqual([].slice.call(colors.data), expected)
   }
 
   t.end()
