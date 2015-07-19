@@ -1,7 +1,7 @@
 {
-  "name": "rainbow-gradient",
+  "name": "rainbow-linear-gradient",
   "version": "0.0.0",
-  "description": "generate a rainbow gradient of ['h', 's', 'v'] colors",
+  "description": "generate a linear gradient of rainbow ndpixels",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js"
