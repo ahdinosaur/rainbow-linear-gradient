@@ -5,6 +5,7 @@ var ndarray = require('ndarray')
 module.exports = rainbowGradient
 
 function rainbowGradient (opts) {
+  opts = defined(opts, {})
   var start = defined(opts.start, 0)
   var step = defined(opts.step, 1)
   var length = defined(opts.length, 10)
