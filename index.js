@@ -32,5 +32,9 @@ function rainbowGradient (opts) {
     colors[i + 2] = value
   }
 
-  return ndarray(colors, [length, 3])
+  var ret = ndarray(colors, [length, 3])
+
+  ret.format = 'hsv'
+
+  return ret
 }
